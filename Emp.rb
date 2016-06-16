@@ -32,8 +32,10 @@ class Emp
 
     def canDrive()
     	message = nil
-    	if(@age==18) then message = "So you can drive car"
-    	elsif (@age<18) then message = "You can't drive car"
+    	if(@age==18) 
+    		message = "So you can drive car"
+    	elsif (@age<18)
+    		message = "You can't drive car"
     	else message = "You can drive car long time"
     	end
     	return message
